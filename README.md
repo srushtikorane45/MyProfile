@@ -1,2 +1,3 @@
 # MyProfile
-#index.html
+#Technology stack-HTML5
+#IDE-VS Code
