@@ -14,6 +14,7 @@
     "axe/text-alternatives": "off",
     "axe/name-role-value": "off",
     "disown-opener": "off",
-    "meta-charset-utf-8": "off"
+    "meta-charset-utf-8": "off",
+    "no-inline-styles": "off"
   }
 }
