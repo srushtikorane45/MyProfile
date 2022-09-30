@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <h3>Application Form</h3><hr>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&family=Sofia&display=swap" rel="stylesheet">
+    <style>
+    label{color: rgb(16, 117, 120);
+    font-size: large;
+font-family: 'poppins' cursive;}
+
+input[type="text"]{
+    color: rgb(86, 19, 19);
+    text-transform: capitalize;
+}
+input[type="submit"]{border-radius: 10px;}
+input[type="submit"]:hover{background-color: rgb(126, 177, 177);
+}
+   </style> 
+</head>
     <body>
         <form>
+            <fieldset>
+                <legend><h3>Application Form</h3></legend>
             <table>
                 <tbody>
                     <tr>
-                        <td><label>Full Name</label></td>
-                        <td><input type="text" autofocus maxlength="20"></td>
+                        <td><label>First Name</label></td>
+                        <td><input type="text" autofocus maxlength="20" placeholder="Only First Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Last Name</label></td>
+                        <td><input type="text" id="last name"></td>
                     </tr>
                     <tr>
                         <td><label>Email Address</label></td>
@@ -81,6 +103,7 @@
                     </tr>
                 </tbody>
             </table>
+        </fieldset>
         </form>
 
     </body>
